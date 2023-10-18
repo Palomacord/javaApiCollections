@@ -1,4 +1,4 @@
-package set;
+package setList;
 
 import java.util.Objects;
 
