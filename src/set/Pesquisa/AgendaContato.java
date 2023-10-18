@@ -1,5 +1,4 @@
-package setPesquisa;
-import setList.ConjuntoPalavrasUnicas;
+package set.Pesquisa;
 
 import java.util.Set;
 import java.util.HashSet;

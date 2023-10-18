@@ -1,4 +1,4 @@
-package setList;
+package set.OperacoesBasicas;
 import java.util.Set;
 import java.util.HashSet;
 public class ConjuntoConvidados {
