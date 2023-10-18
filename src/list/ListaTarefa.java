@@ -8,7 +8,16 @@ public class ListaTarefa {
     public static void main(String[] args) {
         ListaTarefa listaTarefa = new ListaTarefa();
 
-        System.out.println("O numero total da lista é :" + listaTarefa.obterNumeroTotalTarefas());
+        System.out.println("O numero total da lista é : " + listaTarefa.obterNumeroTotalTarefas());
+
+        listaTarefa.adicionarTarefa("Inicio");
+        System.out.println("O numero total da lista é : " + listaTarefa.obterNumeroTotalTarefas());
+        listaTarefa.adicionarTarefa("Outra");
+        System.out.println("O numero total da lista é : " + listaTarefa.obterNumeroTotalTarefas());
+        //listaTarefa.removerTarefa("Outra");
+        //System.out.println("O numero total da lista é : " + listaTarefa.obterNumeroTotalTarefas());
+
+        listaTarefa.obterDescricoesTarefas();
     }
 
     public ListaTarefa() {
